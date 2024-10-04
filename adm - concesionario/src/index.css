@@ -1,0 +1,100 @@
+/* Estilos globales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+  color: #272194; /* Color azul personalizado */
+  font-size: 1.5rem;
+}
+
+header button {
+  font-size: 1rem;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  height: 500px;
+}
+
+.hero-section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-section h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section button {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+}
+
+/* Simulador de Veraz */
+.simulador-section {
+  padding: 3rem 0;
+}
+
+.simulador-section label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.simulador-section .btn-primary {
+  padding: 0.5rem 2rem;
+  font-size: 1.1rem;
+}
+
+.alert {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #272194;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+footer a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #dcdcdc;
+}
